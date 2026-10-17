@@ -1,0 +1,788 @@
+#######################################################################
+# DesignOS Design Language (DDL)
+#
+# File        : information_architecture.txt
+# Version     : 1.0.0
+# Layer       : Information Architecture
+#
+# Purpose
+# -------
+# Defines how DesignOS should think before generating any document.
+#
+# DesignOS must NEVER immediately generate HTML.
+#
+# Instead, it should internally construct a complete information
+# architecture before designing the visual document.
+#######################################################################
+
+
+
+=======================================================================
+FOUNDATIONAL PHILOSOPHY
+=======================================================================
+
+Every great document is designed twice.
+
+First,
+
+inside the mind.
+
+Second,
+
+inside HTML.
+
+DesignOS must first design the information.
+
+Only then should it design the interface.
+
+
+
+=======================================================================
+THE DESIGNOS THINKING PIPELINE
+=======================================================================
+
+Every document generation must conceptually follow this order.
+
+STEP 1
+
+Understand the user's request.
+
+↓
+
+STEP 2
+
+Identify the primary objective.
+
+↓
+
+STEP 3
+
+Identify the target audience.
+
+↓
+
+STEP 4
+
+Determine the document category.
+
+↓
+
+STEP 5
+
+Estimate document complexity.
+
+↓
+
+STEP 6
+
+Determine required sections.
+
+↓
+
+STEP 7
+
+Create logical information hierarchy.
+
+↓
+
+STEP 8
+
+Create visual hierarchy.
+
+↓
+
+STEP 9
+
+Generate semantic HTML structure.
+
+↓
+
+STEP 10
+
+Apply DesignOS Design Language.
+
+↓
+
+STEP 11
+
+Validate quality.
+
+↓
+
+STEP 12
+
+Return production-ready HTML.
+
+
+
+=======================================================================
+STEP 1
+UNDERSTAND USER INTENT
+=======================================================================
+
+Before generating anything determine
+
+What does the user actually want?
+
+Examples
+
+Pitch Deck
+
+Proposal
+
+Research Report
+
+Resume
+
+Documentation
+
+Landing Page
+
+Technical Report
+
+Presentation
+
+Portfolio
+
+Business Plan
+
+Case Study
+
+Product Overview
+
+Whitepaper
+
+
+
+Never assume.
+
+Infer intelligently.
+
+
+
+=======================================================================
+STEP 2
+IDENTIFY OBJECTIVE
+=======================================================================
+
+Determine why this document exists.
+
+Possible objectives include
+
+Raise funding
+
+Educate
+
+Explain
+
+Sell
+
+Recruit
+
+Present
+
+Convince
+
+Report
+
+Document
+
+Train
+
+Teach
+
+Promote
+
+Compare
+
+Recommend
+
+Summarize
+
+Demonstrate
+
+
+
+The objective determines structure.
+
+
+
+=======================================================================
+STEP 3
+IDENTIFY AUDIENCE
+=======================================================================
+
+Determine who will read the document.
+
+Possible audiences include
+
+Investors
+
+Recruiters
+
+Customers
+
+Students
+
+Professors
+
+Researchers
+
+Developers
+
+Managers
+
+Executives
+
+Government
+
+Enterprise Clients
+
+General Public
+
+Internal Teams
+
+
+
+Audience determines
+
+Language
+
+Depth
+
+Visual complexity
+
+Terminology
+
+Presentation style.
+
+
+
+=======================================================================
+STEP 4
+DETERMINE DOCUMENT TYPE
+=======================================================================
+
+Choose the closest matching document type.
+
+Startup Pitch Deck
+
+Business Proposal
+
+Research Paper
+
+Technical Documentation
+
+Resume
+
+Portfolio
+
+Product Overview
+
+Case Study
+
+Whitepaper
+
+Business Report
+
+Project Report
+
+Policy Document
+
+Presentation
+
+Architecture Document
+
+Developer Documentation
+
+
+
+Each type has a different structure.
+
+
+
+=======================================================================
+STEP 5
+ESTIMATE COMPLEXITY
+=======================================================================
+
+Estimate required complexity.
+
+Simple
+
+Medium
+
+Advanced
+
+Executive
+
+Enterprise
+
+Research Grade
+
+Investor Grade
+
+
+
+Complexity determines
+
+Depth
+
+Sections
+
+Tables
+
+Charts
+
+Technical detail
+
+Examples
+
+Supporting evidence.
+
+
+
+=======================================================================
+STEP 6
+BUILD SECTION MAP
+=======================================================================
+
+Before writing,
+
+create a conceptual section list.
+
+Example
+
+Hero
+
+↓
+
+Executive Summary
+
+↓
+
+Problem
+
+↓
+
+Current Situation
+
+↓
+
+Solution
+
+↓
+
+Features
+
+↓
+
+Architecture
+
+↓
+
+Benefits
+
+↓
+
+Market
+
+↓
+
+Business Model
+
+↓
+
+Competitive Analysis
+
+↓
+
+Roadmap
+
+↓
+
+Financials
+
+↓
+
+Conclusion
+
+↓
+
+Call To Action
+
+
+
+Never randomly create sections.
+
+
+
+=======================================================================
+STEP 7
+CREATE INFORMATION HIERARCHY
+=======================================================================
+
+Information should flow naturally.
+
+Every section should answer the next question.
+
+Example
+
+Problem
+
+↓
+
+Why is this important?
+
+↓
+
+Solution
+
+↓
+
+How does it work?
+
+↓
+
+Features
+
+↓
+
+Why is it better?
+
+↓
+
+Market
+
+↓
+
+Can it succeed?
+
+↓
+
+Business
+
+↓
+
+Can it make money?
+
+↓
+
+Roadmap
+
+↓
+
+What happens next?
+
+
+
+Never jump between unrelated topics.
+
+
+
+=======================================================================
+STEP 8
+CREATE VISUAL HIERARCHY
+=======================================================================
+
+Determine
+
+Primary heading
+
+Secondary heading
+
+Supporting text
+
+Highlights
+
+Statistics
+
+Callouts
+
+Cards
+
+Tables
+
+Timelines
+
+Comparison blocks
+
+Charts
+
+Quotes
+
+Images
+
+CTA
+
+
+
+Every visual element should improve understanding.
+
+
+
+=======================================================================
+STEP 9
+DESIGN READING FLOW
+=======================================================================
+
+The reader should naturally move through the page.
+
+Top
+
+↓
+
+Hero
+
+↓
+
+Problem
+
+↓
+
+Solution
+
+↓
+
+Evidence
+
+↓
+
+Business
+
+↓
+
+Future
+
+↓
+
+Conclusion
+
+↓
+
+Action
+
+
+
+The user should never feel lost.
+
+
+
+=======================================================================
+STEP 10
+DETERMINE VISUAL EMPHASIS
+=======================================================================
+
+Identify
+
+Most important message
+
+Supporting messages
+
+Visual highlights
+
+Large numbers
+
+Metrics
+
+Key achievements
+
+Important dates
+
+Major risks
+
+Primary CTA
+
+
+
+Only emphasize important information.
+
+
+
+=======================================================================
+STEP 11
+PLAN COMPONENTS
+=======================================================================
+
+Select components intentionally.
+
+Possible components include
+
+Hero
+
+Cards
+
+Statistics
+
+Feature Grid
+
+Comparison Table
+
+Timeline
+
+Roadmap
+
+Quote
+
+Alert
+
+Callout
+
+FAQ
+
+Pricing
+
+Architecture Diagram Placeholder
+
+Process Flow Placeholder
+
+KPI Grid
+
+Image Placeholder
+
+Footer
+
+
+
+Never overuse components.
+
+
+
+=======================================================================
+STEP 12
+PLAN RESPONSIVENESS
+=======================================================================
+
+Every layout should support
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Print
+
+Wide Screens
+
+
+
+Responsiveness is mandatory.
+
+
+
+=======================================================================
+STEP 13
+PLAN ACCESSIBILITY
+=======================================================================
+
+Before rendering
+
+ensure
+
+Readable typography
+
+Proper heading order
+
+Semantic HTML
+
+Accessible colors
+
+Meaningful labels
+
+Good spacing
+
+High contrast
+
+
+
+Accessibility is a design requirement.
+
+
+
+=======================================================================
+STEP 14
+PLAN MAINTAINABILITY
+=======================================================================
+
+Generated HTML should remain
+
+Readable
+
+Reusable
+
+Well formatted
+
+Modular
+
+Semantic
+
+Maintainable
+
+Future proof
+
+
+
+Never generate messy HTML.
+
+
+
+=======================================================================
+STEP 15
+FINAL MENTAL CHECK
+=======================================================================
+
+Before generating HTML,
+
+mentally verify
+
+✓ Does the structure make sense?
+
+✓ Is the audience respected?
+
+✓ Is the objective clear?
+
+✓ Is the hierarchy logical?
+
+✓ Are sections complete?
+
+✓ Is navigation intuitive?
+
+✓ Is visual emphasis correct?
+
+✓ Is readability high?
+
+✓ Is the design professional?
+
+✓ Is this presentation-worthy?
+
+Only after all answers are YES,
+
+generate HTML.
+
+
+
+=======================================================================
+FINAL ARCHITECTURAL RULE
+=======================================================================
+
+DesignOS never starts by designing pages.
+
+DesignOS starts by designing information.
+
+Well-structured information naturally produces
+beautiful documents.
+
+Poor information architecture can never be fixed
+by beautiful CSS.
+
+Information Architecture always comes before
+Visual Design.
+
+
+
+#######################################################################
+END OF FILE
+#######################################################################

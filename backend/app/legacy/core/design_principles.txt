@@ -1,0 +1,512 @@
+#######################################################################
+# DesignOS Design Language (DDL)
+#
+# File        : design_principles.txt
+# Version     : 1.0.0
+# Layer       : Core Design Principles
+#
+# Purpose
+# -------
+# Defines the immutable principles that every DesignOS generated
+# document must follow.
+#
+# These principles override personal style preferences and guide
+# every AI agent responsible for document creation.
+#######################################################################
+
+
+=======================================================================
+DESIGNOS CORE PRINCIPLES
+=======================================================================
+
+The following principles are mandatory.
+
+Every generated document must satisfy them.
+
+
+=======================================================================
+PRINCIPLE 1
+Purpose Before Design
+=======================================================================
+
+Every document exists to accomplish a purpose.
+
+Never create design that exists only for decoration.
+
+Always ask:
+
+"What is this document trying to achieve?"
+
+
+=======================================================================
+PRINCIPLE 2
+Audience First
+=======================================================================
+
+Every visual decision should consider the reader.
+
+Investor
+
+Recruiter
+
+Professor
+
+Customer
+
+Manager
+
+Engineer
+
+Government Officer
+
+Each audience requires different communication priorities.
+
+
+=======================================================================
+PRINCIPLE 3
+Communication Over Decoration
+=======================================================================
+
+Beautiful design without communication is failure.
+
+Communication always wins.
+
+
+=======================================================================
+PRINCIPLE 4
+Structure Before Styling
+=======================================================================
+
+Never think about colors first.
+
+Always build information hierarchy before visual hierarchy.
+
+
+=======================================================================
+PRINCIPLE 5
+Whitespace Is Content
+=======================================================================
+
+Whitespace improves readability.
+
+Whitespace creates elegance.
+
+Whitespace separates ideas.
+
+Never fear empty space.
+
+
+=======================================================================
+PRINCIPLE 6
+Hierarchy Creates Understanding
+=======================================================================
+
+The reader should instantly know
+
+What is important.
+
+What is secondary.
+
+What can be skipped.
+
+
+=======================================================================
+PRINCIPLE 7
+Professionalism Over Creativity
+=======================================================================
+
+Creative is good.
+
+Professional is mandatory.
+
+Avoid flashy designs.
+
+Avoid gimmicks.
+
+Avoid unnecessary effects.
+
+
+=======================================================================
+PRINCIPLE 8
+Consistency Is Mandatory
+=======================================================================
+
+Typography
+
+Spacing
+
+Colors
+
+Cards
+
+Buttons
+
+Tables
+
+Icons
+
+Margins
+
+Padding
+
+Everything should remain consistent.
+
+
+=======================================================================
+PRINCIPLE 9
+Every Section Needs A Purpose
+=======================================================================
+
+Never create filler sections.
+
+Every section must answer
+
+Why does this exist?
+
+
+=======================================================================
+PRINCIPLE 10
+Design Must Guide Attention
+=======================================================================
+
+The document should naturally guide the eye.
+
+Use
+
+Typography
+
+Spacing
+
+Contrast
+
+Cards
+
+Alignment
+
+to create reading flow.
+
+
+=======================================================================
+PRINCIPLE 11
+Never Surprise The Reader
+=======================================================================
+
+Navigation should feel natural.
+
+Information should appear where users expect it.
+
+
+=======================================================================
+PRINCIPLE 12
+Readability Always Wins
+=======================================================================
+
+Never sacrifice readability for aesthetics.
+
+Readable documents are trustworthy documents.
+
+
+=======================================================================
+PRINCIPLE 13
+Modern Design Is Quiet
+=======================================================================
+
+Professional documents are calm.
+
+Avoid visual noise.
+
+Avoid excessive gradients.
+
+Avoid rainbow colors.
+
+Avoid over decoration.
+
+
+=======================================================================
+PRINCIPLE 14
+Semantic HTML Is Mandatory
+=======================================================================
+
+Always use
+
+header
+
+main
+
+section
+
+article
+
+footer
+
+nav
+
+table
+
+figure
+
+aside
+
+instead of meaningless div nesting.
+
+
+=======================================================================
+PRINCIPLE 15
+Responsive By Default
+=======================================================================
+
+Desktop
+
+Tablet
+
+Mobile
+
+All layouts should adapt automatically.
+
+
+=======================================================================
+PRINCIPLE 16
+Accessibility Is Not Optional
+=======================================================================
+
+Use
+
+proper headings
+
+contrast
+
+alt placeholders
+
+semantic elements
+
+accessible colors
+
+
+=======================================================================
+PRINCIPLE 17
+Information Density Must Be Balanced
+=======================================================================
+
+Never overload a page.
+
+Never leave it empty.
+
+Find balance.
+
+
+=======================================================================
+PRINCIPLE 18
+Design Should Feel Expensive
+=======================================================================
+
+Every generated document should feel premium.
+
+The goal is not luxury.
+
+The goal is confidence.
+
+
+=======================================================================
+PRINCIPLE 19
+Typography Is The Primary Design Tool
+=======================================================================
+
+Good typography solves most design problems.
+
+Respect font hierarchy.
+
+Respect spacing.
+
+
+=======================================================================
+PRINCIPLE 20
+Color Should Communicate Meaning
+=======================================================================
+
+Blue
+
+Trust
+
+Green
+
+Growth
+
+Red
+
+Warning
+
+Orange
+
+Action
+
+Purple
+
+Innovation
+
+Gray
+
+Neutral
+
+
+Never use colors randomly.
+
+
+=======================================================================
+PRINCIPLE 21
+Cards Represent Ideas
+=======================================================================
+
+Cards should group related information.
+
+Cards should improve scanning.
+
+Cards should not become decoration.
+
+
+=======================================================================
+PRINCIPLE 22
+Every Visual Element Must Justify Its Existence
+=======================================================================
+
+Ask
+
+Does this improve understanding?
+
+If not
+
+remove it.
+
+
+=======================================================================
+PRINCIPLE 23
+Simple Is Difficult
+=======================================================================
+
+Prefer elegant simplicity over complex layouts.
+
+Professional products reduce complexity.
+
+
+=======================================================================
+PRINCIPLE 24
+Visual Balance Is Mandatory
+=======================================================================
+
+Balance
+
+Margins
+
+Spacing
+
+Alignment
+
+Symmetry
+
+Visual weight
+
+
+must always feel intentional.
+
+
+=======================================================================
+PRINCIPLE 25
+Scalability Matters
+=======================================================================
+
+Generated HTML should remain maintainable.
+
+Avoid duplicated styles.
+
+Prefer reusable CSS classes.
+
+Prefer CSS variables.
+
+
+=======================================================================
+PRINCIPLE 26
+Print Compatibility
+=======================================================================
+
+Every professional document should remain printable.
+
+Never depend entirely on screen-only layouts.
+
+
+=======================================================================
+PRINCIPLE 27
+Production Quality
+=======================================================================
+
+Generated HTML should feel deployable.
+
+Not experimental.
+
+Not prototype quality.
+
+Production quality.
+
+
+=======================================================================
+PRINCIPLE 28
+Business First
+=======================================================================
+
+The document exists to solve business communication.
+
+Never forget the objective.
+
+
+=======================================================================
+PRINCIPLE 29
+Emotion Supports Logic
+=======================================================================
+
+Professional documents should create
+
+confidence
+
+trust
+
+clarity
+
+motivation
+
+without becoming emotional.
+
+
+=======================================================================
+PRINCIPLE 30
+Never Stop Improving
+=======================================================================
+
+If a better structure exists,
+
+choose it.
+
+If a better layout exists,
+
+use it.
+
+If a cleaner hierarchy exists,
+
+prefer it.
+
+
+=======================================================================
+FINAL PRINCIPLE
+=======================================================================
+
+DesignOS does not generate HTML.
+
+DesignOS engineers communication.
+
+Every generated document should be something that a professional would
+be comfortable presenting in front of investors, executives, clients,
+government organizations, universities or enterprise customers.
+
+Anything below that quality is unacceptable.
+
+
+#######################################################################
+END OF FILE
+#######################################################################
